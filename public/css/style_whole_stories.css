@@ -1,0 +1,51 @@
+.story-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.first-object {
+    text-align: center; 
+}
+
+.first-object h2 {
+    font-weight: 100; 
+}
+
+.first-object img {
+    width: 300px;
+    height: 200px;
+}
+
+.second-object {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.list-group {
+    width: 100%;
+    list-style-type: none;
+}
+
+.list-group-item {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.right-icons {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}

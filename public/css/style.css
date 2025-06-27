@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+
+
+/* GENERAL */
+/* body {
+    font-family: var(--body-font-family);
+    margin-top: 100px;
+} */
+
+.section-login {
+    margin-top: 60px;
+    padding: 2rem;
+}
+
+
+/* LOGIN CARD */
+.card-login {
+    border-radius: 2rem ;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-body-login {
+    padding: 2rem;
+}
+
+/* TITLE */
+.login-title {
+    margin-top: 1rem;
+    
+}
+.login-title h2 {
+    color:rgb(250, 150, 70) ;
+    font-weight: 500;
+}
+
+/* BUTTON */
+.btn-login {
+    font-family: var(--btn-font-family);
+    background-color:rgb(250, 150, 70);
+    color: white;
+    
+}
+
+.btn-login:hover {
+    background-color: rgb(232, 179, 140);
+    border-color:rgb(255, 146, 78);
+}
+
+/* FORM */
+.form-floating .form-control {
+    padding-left: 24px;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 16px;
+}
+
+/* ALERT CUSTOMS */
+.alert-custom-danger {
+    background-color: #ffe0e0;
+    color: #d60000;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.alert-custom-success {
+    background-color: #e0ffe0;
+    color: #007f00;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+}
+  
+
+/* DIVIDER */
+.login-divider {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* LINKS */
+.login-links a h5 {
+    font-size: 16px;
+    color: rgb(255, 126, 45);
+}
+
+
+/* FORGOT PASSWORD LINK */
+.text-end a {
+    font-size: 14px;
+}
+
+/* ETC. (Other sections like modal, series, form-inputs...) */
+
+.modal-content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.auto-expand {
+    border: none;
+    border-bottom: 4px solid var(--blue);
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    min-height: 40px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.auto-expand:focus {
+    border-bottom: 4px solid #0056b3;
+}
+
+/* SERIES SECTION (your custom buttons and container) */
+.series-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid #e4e2e2;
+}
+
+.series-button-gray {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #888c90;
+    color: var(--white);
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.series-button-pink {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #cc2095;
+    color: var(--white);
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.series-button-gray:hover {
+    background-color: #707479;
+}
+
+.series-button-pink:hover {
+    background-color: #b81c87;
+}
+
+/* FORM STYLING */
+.input-container {
+    margin: 30px;
+    padding: 30px;
+}
+
+.list-title {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.status-group {
+    margin-top: 20px;
+}
+
+.input-group label {
+
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-select {
+    height: 50px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background-color: #f8f9fa;
+    font-size: 16px;
+}
+
+.custom-select:focus {
+    border-color: var(--blue);
+    background-color: var(--white);
+}

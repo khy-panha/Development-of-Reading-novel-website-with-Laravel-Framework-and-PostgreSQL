@@ -1,0 +1,174 @@
+.account-container {
+    max-width: 800px;
+    margin: 120px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.account-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.user-details h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-details p {
+    margin: 4px 0;
+    color: #777;
+}
+
+.account-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.acounut-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.account-card-1{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s, transform 0.3s;
+}
+
+
+.account-card-1:hover {
+    background-color: #d8d8d8;
+    transform: translateY(-2px);
+}
+
+.logout-form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-align: center;
+    height: 40px;
+    width: 60px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding-right: 10px;
+
+}
+
+.btn-logout:hover {
+    background-color: #bb2d3b;
+    color: #ffffff;
+}
+
+.edit-profile-form {
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px 14px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.img-fluid.mt-4 {
+    border-radius: 12px;
+    max-width: 150px;
+    height: auto;
+    border: 2px solid #ddd;
+}
+
+.btn-primary {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.alert-success {
+    margin-top: 20px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .account-profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .user-details h2 {
+        font-size: 20px;
+    }
+
+    .user-details p {
+        font-size: 14px;
+    }
+
+    .account-menu-grid {
+        grid-template-columns: 1fr;
+    }
+}

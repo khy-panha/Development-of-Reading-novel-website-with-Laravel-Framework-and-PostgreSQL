@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Khmer OS Siemreap';
+    src: url('path-to-font\Khmer OS Siemreap Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.series-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(228, 226, 226);
+}
+
+.series1-button {
+    padding-right: 5px;
+    border: 0px;
+    border-radius: 30px; 
+    width: 100px; 
+    height: 50px; 
+    background-color: rgb(250, 150, 70);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.series2-button {
+    padding-right: 5px;
+    border: 0px;
+    border-radius: 30px; 
+    width: 100px; 
+    height: 50px; 
+    background-color: #888c90;
+    border: 1px solid rgb(228, 226, 226);
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center; 
+    color: #f8f9fa;
+}
+.series1-button:hover{
+    background-color: rgb(232, 179, 140);
+}
+.series2-button:hover{
+    background-color: #888c90;
+}
+
+.create-button2{
+    padding-right: 5px;
+    border: 0px;
+    border-radius: 30px; 
+    width: 100px; 
+    height: 50px; 
+    background-color: rgb(250, 150, 70);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+.create-button1{
+    padding-right: 5px;
+    border: 0px;
+    border-radius: 30px; 
+    width: 100px; 
+    height: 50px; 
+    background-color: rgb(173, 172, 170);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+.create-container{
+    display: flex;
+    margin: 20px;
+    margin-left: 20px;
+    justify-content: center;
+}
+#uploadButton{
+    background-color: rgb(250, 150, 70);
+    color: #f8f9fa;
+}
+.preview-img {
+    width: 200px;
+    height: 300px;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Center the image */
+    border: 1px solid #ddd; /* Optional border */
+    margin-top: 10px; /* Space between input and preview */
+    display: none; /* Initially hidden */
+}
+.input-group {
+    margin: 20px;
+    /* Center the elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    width: 200px;         /* Set the width */
+    height: 300px;        /* Set the height */
+    border: 2px dashed #007bff; /* Dashed border for input */
+    text-align: center;
+    position: relative;
+    overflow: hidden;   /* To handle overflow */
+    background-color: rgba(0, 0, 0, 0.05); /* Light background */
+}
+
+
+img {
+    max-width: 200px;       
+    max-height: 300px;      
+    object-fit: cover; 
+}
+
+
+/* Hide the default file input */
+input[type="file"] {
+    display: none; /* Hide the file input */
+}
+
+.button-container {
+    max-width: 200px;       
+    max-height: 300px;
+    display: flex;  /* Enable Flexbox */
+    justify-content: flex-end; /* Align items to the right */
+    padding: 20px; /* Optional padding */
+}
+
+
+#uploadedImage {
+    display: none;
+    min-width: 200px;
+    height: auto;
+}
+
+.uploadButton{
+    max-width: 200px;
+}
+
+.d-flex{
+    justify-content:center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds spacing between fields */
+    width: 50%;
+}
+
+.form-group-container {
+    display: flex;
+    gap: 20px; 
+}
+input{
+    height: 40px;
+    border-radius:0px;
+}
+.form-control{
+    height: 40px;
+    border-radius:0px;
+}
+.upload-container{
+
+   padding-right:10px ;
+} 
+.form-group1{
+    width: 250px;
+
+   }
+#uploadButton {
+    width: 100%;
+}  
+.card-img-top{
+    width: 200px;
+    height: 300px;
+}
+.btn-updoad {
+    font-family: var(--btn-font-family);
+    background-color:rgb(250, 150, 70);
+    color: white;
+    border-radius: 5px;
+}
+.btn-updoad:hover {
+    background-color: rgb(232, 179, 140);
+    border-color:rgb(255, 146, 78);
+}
+@media (max-width: 700px) {
+    .create-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers content inside */
+        align-items: center; /* Centers content inside */
+        height: auto;
+        padding: 10px;
+        margin: 0 auto; /* Centers the container */
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .form-group-container {
+        gap: 10px;
+        height: 50px;
+    }
+
+    #uploadButton {
+        width: 200px;;
+    }
+   .form-group1{
+        width: 250px;
+   }
+   .upload-container{
+        padding-left: 10px;
+        gap: 10px;
+    } 
+ .form-container{
+    min-width: 300px;
+ }
+}
+@media (min-width: 1000px) {
+    .form-container{
+        margin-left: 40px;
+    }
+}
+
+textarea{
+    font-family: 'Khmer OS Siemreap';
+}
